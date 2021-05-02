@@ -21,6 +21,7 @@ a {
   margin: 0 auto;
 }
 
+
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url("netfl.gif");
@@ -73,10 +74,14 @@ a {
   opacity: 0.8;
   border-radius: 4px;
   text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear;
 }
 
 .btn:hover {
-  opacity: 1;
+  background: #ff7b29;
+  border-radius: 50%;
 }
 
 .fa {
@@ -275,7 +280,7 @@ footer img {
 }
 
 footer p {
-  color: #320046;
+  color: #ffffff;
   font-size: 12px;
   align:right;
 }
@@ -283,4 +288,5 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+  background-color:#001529;
 }

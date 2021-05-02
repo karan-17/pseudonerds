@@ -1,0 +1,35 @@
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message-wrapper .heading h3 {
+    font-weight: normal;
+  }
+  .message-wrapper p{
+    font-family: monospace;
+    font-color:blue;
+    font-size:large;
+  }
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0px 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  .message-wrapper img{
+    width:100px;
+    height:30px;
+  }

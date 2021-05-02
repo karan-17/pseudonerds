@@ -41,4 +41,25 @@ $(function() {
       
     }
   });
+function myFunction(rate) {
+  var rates = document.getElementById("rate").value;
+var rate_value;
+if(rates =='1'){
+    rate_value = document.getElementById('r1').value;
+    
+}else if(rates =='2'){
+    rate_value = document.getElementById('r2').value;
+    
+}else if(rates =='3'){
+    rate_value = document.getElementById('r3').value;
+}  
+else if(rates =='4'){
+  rate_value = document.getElementById('r4').value;
+}  
+else if(rates =='5'){
+  rate_value = document.getElementById('r5').value;
+}  
+
+document.getElementById('results').innerHTML = rate_value;
+}
 });

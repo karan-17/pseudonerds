@@ -206,7 +206,7 @@ header {
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
-  text-align: left;
+  text-align: right;
 }
 
 .message-wrapper .heading h3 {
@@ -281,12 +281,45 @@ footer img {
 
 footer p {
   color: #ffffff;
-  font-size: 12px;
-  align:right;
+  font-size: 18px;
+  box-align:right;
+}
+footer h3 {
+  color: #ffffff;
+  box-align:right;
+}
+
+footer h2{
+  color:#ffffff;
 }
 
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
   background-color:#001529;
+  align:center;
 }
+.footer-right {
+  float: right;
+  margin-bottom:auto;
+  margin-right: 25px;
+}
+
+/*.footer-right a{
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}*/
+.footer-right logo{
+  width: 124px;
+  margin-top: 20px;
+  margin-right: 20px;
+  float: right;
+}
+.footer-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+

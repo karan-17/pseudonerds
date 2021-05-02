@@ -245,7 +245,7 @@ header {
   padding: 20px;
   font-size: 30px;
 }
-
+*/
 .side {
   flex: 30%;
   background-color: #f1f1f1;
@@ -264,7 +264,6 @@ header {
   align:left;
 
 }
-*/
 footer img {
   width: 125px;
   margin-left:5px;

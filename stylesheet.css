@@ -60,8 +60,9 @@ a {
   margin-right: 10px;
 }
 
-.awards {
-  background-color: #55acee;
+.crisp {
+  background-color: #005291;
+  margin:10px;
 }
 
 .btn {
@@ -252,7 +253,7 @@ header {
 }
 .side h2{
   font-size: 25px;
-}*/
+}
 .side img{
   border-bottom-right-radius: 3cm;
   border-start-start-radius: 3cm;
@@ -263,6 +264,7 @@ header {
   align:left;
 
 }
+*/
 footer img {
   width: 125px;
   margin-left:5px;
